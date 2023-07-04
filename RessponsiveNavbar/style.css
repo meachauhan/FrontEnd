@@ -119,7 +119,7 @@ header{
         top: 100%;
         right: -100%;
         width: 270px;
-        height: 29vh;
+        height: 31vh;
         background: var(--main-color);
         display: flex;
         flex-direction: column;
@@ -142,7 +142,7 @@ header{
         color: var(--text-color);
 
     }
-    .navbar .open{
+    .open{
         right: 2%;
     }
 }
