@@ -15,16 +15,22 @@
                 <span>Have and Password?</span>
                 <header>Generate Password</header>
             </div>
-            <div class="input-field">
-                <input type="text" class=" input" id="password" placeholder="Password" >
-                <i class="bx bx-copy" id=""copy onclick="copyPassword()"></i>
-            </div>
+            <form action="" onsubmit="return false;">
+                <div class="input-field">
+                    <input type="text" class=" input" id="length" placeholder="Password Length" required >
+                    
+                </div>
+                <div class="input-field">
+                    <input type="text" class=" input" id="password" placeholder="Password" >
+                    <i class="bx bx-copy" id=""copy onclick="copyPassword()"></i>
+                </div>
 
-           
+            
 
-            <div class="input-field">
-                <input type="submit" class="submit" onclick="genPassword()" value="Generate">
-            </div>
+                <div class="input-field">
+                    <input type="submit" class="submit" onclick="genPassword()" value="Generate">
+                </div>
+            </form>
 
            
         </div>
