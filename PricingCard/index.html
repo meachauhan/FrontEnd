@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stye.css">
+    <link href='https://fonts.googleapis.com/css?family=Fira Code' rel='stylesheet'>
+    <title>Pricing Card</title>
+</head>
+<body>
+    <div class="background--custom">
+        <canvas id="canvas" >
+      </div>
+    <div class="priceheading">
+        <h1>Pricing</h1>
+        <div class="card-container">
+            <div class="price-card">
+                <div class="card-heading">Personal</div>
+                <p class="pricing"> <sup>$</sup>20<sub>/MO</sub></p>
+                <ul class="offers">
+                    <li>2 Websites</li>
+                    <li>30GB SSD</li>
+                    <li>1 Domain</li>
+                    <li>1Email</li>
+                    <li>1 CPU & RAM</li>
+                </ul>
+                <input type="submit" class="order" value="Order Now">
+            </div>
+            <div class="price-card"> 
+                <div class="card-heading">Premium</div>
+                <p class="pricing"> <sup>$</sup>20<sub>/MO</sub></p>
+                <ul class="offers">
+                    <li>2 Websites</li>
+                    <li>30GB SSD</li>
+                    <li>1 Domain</li>
+                    <li>1Email</li>
+                    <li>1 CPU & RAM</li>
+                </ul>
+                <input type="submit" class="order" value="Order Now"></div>
+            <div class="price-card">
+                <div class="card-heading">Platinum</div>
+                <p class="pricing"> <sup>$</sup>20<sub>/MO</sub></p>
+                <ul class="offers">
+                    <li>2 Websites</li>
+                    <li>30GB SSD</li>
+                    <li>1 Domain</li>
+                    <li>1Email</li>
+                    <li>1 CPU & RAM</li>
+                </ul>
+                <input type="submit" class="order" value="Order Now"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/gh/greentfrapp/pocoloco@minigl/minigl.js"></script>
+    <script>
+    var gradient = new Gradient();
+    gradient.initGradient("#canvas");
+    </script>
+</body>
+</html>
