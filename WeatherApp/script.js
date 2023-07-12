@@ -33,7 +33,7 @@ function showWheather() {
         myCity.innerHTML = city;
         temp.innerHTML = `${tempValue}`
         weather.innerHTML = `${weatherMain}`
-        temp.innerHTML = `${tempValue}<span><sup>o</sup>C</span>.`;
+        temp.innerHTML = `${tempValue}<sup>o</sup>C.`;
         console.log(weatherMain);
 
         // Updating the Images according to the weather
