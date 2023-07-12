@@ -43,11 +43,11 @@ function showWheather() {
         }
         if (weatherMain == 'Mist') {
             image.src = `./Images/mist.png`
-            // myWeatherContainer.style.backgroundColor = '#ec6e4c'
+            myWeatherContainer.style.backgroundColor = '#7dc4fa'
         }
         if (weatherMain == 'Clouds') {
             image.src = `./Images/clouds.png`
-            myWeatherContainer.style.backgroundColor = '#86d3d3'
+            myWeatherContainer.style.backgroundColor = '#d0deec'
         }
         if (weatherMain == 'Rain') {
             image.src = `./Images/Rain.png`
