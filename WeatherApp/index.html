@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Fira Code' rel='stylesheet'>
+    <title>Weather</title>
+</head>
+<body>
+    <div class="box">
+        <div class="container">
+            <div class="top-header">
+                <span>Have a Sentence?</span>
+                <header>Weather App</header>
+            </div>
+            <form action="" onsubmit="return false;">
+                
+                <div class="input-field">
+                    <input type="text" class=" input" id="weatherInput" placeholder="Enter City" >
+                    <i class="bx bx-search" id="" onclick="showWheather()"></i>
+                    
+                </div>
+                <h2 id="city"></h2>
+                <img src="." alt="" id="weatherImage">
+                <div class="info">
+                <p class="weatherMain" id="weatherMain"></p>
+                <h2 id="temp"><span class="temp"></span></h2></div>
+                <div class="todayDates"></div>
+                <div id="todayTime"></div>
+                
+            
+            </form>
+
+           
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
